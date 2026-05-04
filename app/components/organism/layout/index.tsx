@@ -1,12 +1,16 @@
 import React from 'react'
 
+interface LayoutProps {
+  children: React.ReactNode;
+  bgColor?: string;
+}
+
 const Index = ({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
+  bgColor = 'bg-primary',
+}: Readonly<LayoutProps>) => {
   return (
-    <div className="flex flex-col w-full h-screen items-center bg-primary">{children}</div>
+    <div className={`flex flex-col w-full h-screen items-center ${bgColor}`}>{children}</div>
   )
 }
 

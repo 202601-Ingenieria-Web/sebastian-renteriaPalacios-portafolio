@@ -9,19 +9,22 @@ export default function Home() {
     <LateralMenu />
   </aside>
 
-  <main className="w-[78%] p-6 bg-background-secondary">
-    <Layout>
-      <h1 className="text-white">Hello World!</h1>
+  <main className="w-[76%] p-6 bg-background-secondary">
+    <Layout bgColor="bg-background">
+      <h1 className="text-black">Hello World!</h1>
     </Layout>
-    <Layout>
-      <h1 className="text-white">Hello World!</h1>
+    <Layout bgColor="bg-background-secondary">
+      <h1 className="text-black">Hello World!</h1>
     </Layout>
-    <Layout>
-      <h1 className="text-white">Hello World!</h1>
+    <Layout bgColor="bg-background">
+      <h1 className="text-black">Hello World!</h1>
+    </Layout>
+    <Layout bgColor="bg-background-secondary">
+      <h1 className="text-black">Hello World!</h1>
     </Layout>
   </main>
 
-  <aside className="w-[2%] p-6">
+  <aside className="w-[3%] p-6">
     <ListSocials />
   </aside>
 </LateralLayout>
