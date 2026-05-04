@@ -97,6 +97,8 @@ El wrapper `components/ui/carousel.tsx` expone:
 
 `CardCarousel` coloca `CardImage` dentro de `CarouselItem` y fija el ancho de cada slide para que se muestren varios ítems. Si ves solo una carta grande en el carrusel, revisa:
 
+Link Deploy:
+https://sebastian-renteriapalacios-portafol-nine.vercel.app/
 
 
 
