@@ -10,7 +10,7 @@ const Index = ({
   bgColor = 'bg-primary',
 }: Readonly<LayoutProps>) => {
   return (
-    <div className={`flex flex-col w-full h-screen items-center ${bgColor}`}>{children}</div>
+    <div className={`flex flex-col w-full items-center ${bgColor}`}>{children}</div>
   )
 }
 
