@@ -16,7 +16,7 @@ const Index = ({ contenido, imageUrl }: ProfileProps) => {
         </h1>
 
         <h2 className="text-2xl font-semibold">
-          <span className="text-yellow-500">Front-end</span> Developer
+          <span className="text-yellow-500">Full-Stack</span> Developer
         </h2>
 
         <p className="text-gray-600 text-sm leading-relaxed">

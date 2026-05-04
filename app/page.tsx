@@ -3,6 +3,8 @@ import Layout from "@/app/components/organism/layout";
 import LateralLayout from "@/app/components/organism/lateralLayout";
 import ListSocials from "@/app/components/molecules/listSocials";
 import Profile from "@/app/components/molecules/profile";
+import CardCarousel from "@/app/components/molecules/cardCarousel";
+import EducationSection from "@/app/components/molecules/educationSection";
 import CardGrid from "@/app/components/molecules/cardGrid";
 export default function Home() {
   return (
@@ -23,10 +25,13 @@ and data-driven solutions. My interests lie in software development and AI-drive
       <CardGrid />
     </Layout>
     <Layout bgColor="bg-background">
-      <h1 className="text-black">Hello World!</h1>
+      <EducationSection />
     </Layout>
     <Layout bgColor="bg-background-secondary">
-      <h1 className="text-black">Hello World!</h1>
+      <CardCarousel />
+    </Layout>
+    <Layout bgColor="bg-background">
+      2021 All Rights Reserved. Designed by Sebastian Rentería.
     </Layout>
   </main>
 

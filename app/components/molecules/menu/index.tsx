@@ -8,29 +8,36 @@ const Index = () => {
   return (
     <div className="text-[15px] flex flex-col  space-y-5 ">
         <div className="w-full">
-            <ProfileData name="Sebastian Rentería" charge="Ingeniero de Sistemas" imageUrl="/anonimous-image.png" />
+            <ProfileData name="Sebastian Rentería" charge="Systems Engineer" imageUrl="/anonimous-image.png" />
         </div>
         <div className="w-full">
-            <LabeledData label="edad:" value="28" />
-            <LabeledData label="Residencia:" value="Medellín, CO" />
-            <LabeledData label="Disponibilidad:" value="Disponible" valueClassName="text-green-500" />
-            <LabeledData label="Dirección:" value="Calle 123 # 45-67" />
+            <LabeledData label="age:" value="28" />
+            <LabeledData label="Residence:" value="Medellín, CO" />
+            <LabeledData label="Availability:" value="Available" valueClassName="text-green-500" />
+            <LabeledData label="Address:" value="St. 123 # 45-67" />
         </div>
         <div className="w-full">
-            <h1 className="text-xl mb-2">Idiomas            </h1>
+            <h1 className="text-xl mb-2">Languages</h1>
             <ProgressWithLabel label="Español" value={100} id="nivel-español" />
             <ProgressWithLabel label="Inglés" value={80} id="nivel-inglés" />
         </div>
         <div className="w-full">
-            <h1 className="text-xl mb-2">Lenguajes de Programación</h1>
-            <ProgressWithLabel label="JavaScript" value={90} id="nivel-javascript" />
-            <ProgressWithLabel label="Python" value={75} id="nivel-python" />
-            <ProgressWithLabel label="Java" value={60} id="nivel-java" />
+            <h1 className="text-xl mb-2">Programming Languages</h1>
+            <ProgressWithLabel label="Python" value={90} id="nivel-python" />
+            <ProgressWithLabel label="Java" value={80} id="nivel-java" />
+            <ProgressWithLabel label="Java" value={80} id="nivel-java" />
+            <ProgressWithLabel label="C++" value={65} id="nivel-cpp" />
+
+            <ProgressWithLabel label="JavaScript" value={70} id="nivel-javascript" />
         </div>
         <div className="w-full">
-            <h1 className="text-xl mb-2">Habilidades</h1>
+            <h1 className="text-xl mb-2">Skills</h1>
             <ItemList name="Git" />
             <ItemList name="GraphQL" />
+            <ItemList name="Docker" />
+            <ItemList name="AWS" />
+            <ItemList name="CI/CD" />
+            <ItemList name="Agile Methodologies" />
         </div>
     </div>
   )
